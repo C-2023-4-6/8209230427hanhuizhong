@@ -4,7 +4,7 @@ int main()
 {
 	for (int i = 0; i < 5; i++)
 	{
-		for (int k = 5; k > 0; k--)
+		for (int k = 5; k > i; k--)
 		{
 			cout << "*";
 		}
